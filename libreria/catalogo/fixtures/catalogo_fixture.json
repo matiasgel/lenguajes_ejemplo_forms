@@ -1,0 +1,2525 @@
+[
+    {
+        "model": "catalogo.autor",
+        "pk": 1,
+        "fields": {
+            "nombre": "Gabriel García Márquez",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 1,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 1,
+        "fields": {
+            "nombre": "Editorial Planeta",
+            "direccion": "Calle Falsa 123",
+            "telefono": "123456789",
+            "email": "contacto@planeta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 1,
+        "fields": {
+            "isbn": "9781234567897-1",
+            "titulo": "Cien años de soledad",
+            "precio": "19.99",
+            "stock": 50,
+            "proveedor": 1,
+            "autor": [1],
+            "genero": [1]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 2,
+        "fields": {
+            "nombre": "J.K. Rowling",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 2,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 2,
+        "fields": {
+            "nombre": "Bloomsbury",
+            "direccion": "50 Bedford Square, London",
+            "telefono": "+44 20 7631 5600",
+            "email": "info@bloomsbury.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 2,
+        "fields": {
+            "isbn": "9780747532743-2",
+            "titulo": "Harry Potter and the Philosopher's Stone",
+            "precio": "29.99",
+            "stock": 30,
+            "proveedor": 2,
+            "autor": [2],
+            "genero": [2]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 3,
+        "fields": {
+            "nombre": "J.R.R. Tolkien",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 3,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 3,
+        "fields": {
+            "nombre": "HarperCollins",
+            "direccion": "195 Broadway, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harpercollins.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 3,
+        "fields": {
+            "isbn": "9780618640157-3",
+            "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+            "precio": "25.00",
+            "stock": 20,
+            "proveedor": 3,
+            "autor": [3],
+            "genero": [3]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 4,
+        "fields": {
+            "nombre": "George Orwell",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 4,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 4,
+        "fields": {
+            "nombre": "Secker & Warburg",
+            "direccion": "20 Vauxhall Bridge Rd, London",
+            "telefono": "+44 20 7793 3838",
+            "email": "info@seckerandwarburg.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 4,
+        "fields": {
+            "isbn": "9780451524935-4",
+            "titulo": "1984",
+            "precio": "14.99",
+            "stock": 40,
+            "proveedor": 4,
+            "autor": [4],
+            "genero": [4]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 5,
+        "fields": {
+            "nombre": "Aldous Huxley",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 5,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 5,
+        "fields": {
+            "nombre": "Chatto & Windus",
+            "direccion": "39 St. James's Street, London",
+            "telefono": "+44 20 7493 8383",
+            "email": "info@chatto.co.uk"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 5,
+        "fields": {
+            "isbn": "9780060850524-5",
+            "titulo": "Brave New World",
+            "precio": "16.99",
+            "stock": 35,
+            "proveedor": 5,
+            "autor": [5],
+            "genero": [5]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 6,
+        "fields": {
+            "nombre": "Ray Bradbury",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 6,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 6,
+        "fields": {
+            "nombre": "Simon & Schuster",
+            "direccion": "1230 Avenue of the Americas, New York",
+            "telefono": "+1 212-698-7000",
+            "email": "contact@simonandschuster.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 6,
+        "fields": {
+            "isbn": "9781451673319-6",
+            "titulo": "Fahrenheit 451",
+            "precio": "12.99",
+            "stock": 60,
+            "proveedor": 6,
+            "autor": [6],
+            "genero": [6]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 7,
+        "fields": {
+            "nombre": "Isaac Asimov",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 7,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 7,
+        "fields": {
+            "nombre": "Gnome Press",
+            "direccion": "123 Fantasy Rd, New York",
+            "telefono": "+1 212-555-1234",
+            "email": "info@gnomepress.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 7,
+        "fields": {
+            "isbn": "9780553293357-7",
+            "titulo": "Foundation",
+            "precio": "18.99",
+            "stock": 45,
+            "proveedor": 7,
+            "autor": [7],
+            "genero": [7]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 8,
+        "fields": {
+            "nombre": "Philip K. Dick",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 8,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 8,
+        "fields": {
+            "nombre": "Doubleday",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-765-4300",
+            "email": "contact@doubleday.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 8,
+        "fields": {
+            "isbn": "9780345404473-8",
+            "titulo": "Do Androids Dream of Electric Sheep?",
+            "precio": "15.99",
+            "stock": 55,
+            "proveedor": 8,
+            "autor": [8],
+            "genero": [8]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 9,
+        "fields": {
+            "nombre": "Arthur C. Clarke",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 9,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 9,
+        "fields": {
+            "nombre": "Harper & Row",
+            "direccion": "10 E 53rd St, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harperandrow.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 9,
+        "fields": {
+            "isbn": "9780553284577-9",
+            "titulo": "Rendezvous with Rama",
+            "precio": "17.99",
+            "stock": 25,
+            "proveedor": 9,
+            "autor": [9],
+            "genero": [9]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 10,
+        "fields": {
+            "nombre": "H.G. Wells",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 10,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 10,
+        "fields": {
+            "nombre": "The Macmillan Company",
+            "direccion": "866 Third Avenue, New York",
+            "telefono": "+1 212-751-6000",
+            "email": "contact@macmillan.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 10,
+        "fields": {
+            "isbn": "9780451532084-10",
+            "titulo": "The Time Machine",
+            "precio": "13.99",
+            "stock": 65,
+            "proveedor": 10,
+            "autor": [10],
+            "genero": [10]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 11,
+        "fields": {
+            "nombre": "Margaret Atwood",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 11,
+        "fields": {
+            "nombre": "Ficción Distópica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 11,
+        "fields": {
+            "nombre": "McClelland & Stewart",
+            "direccion": "481 University Ave, Toronto",
+            "telefono": "+1 416-598-1484",
+            "email": "contact@mcclelland.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 11,
+        "fields": {
+            "isbn": "9780771005370-11",
+            "titulo": "The Handmaid's Tale",
+            "precio": "22.99",
+            "stock": 20,
+            "proveedor": 11,
+            "autor": [11],
+            "genero": [11]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 12,
+        "fields": {
+            "nombre": "Kurt Vonnegut",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 12,
+        "fields": {
+            "nombre": "Ficción Satírica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 12,
+        "fields": {
+            "nombre": "Delta",
+            "direccion": "200 Park Ave, New York",
+            "telefono": "+1 212-883-8500",
+            "email": "contact@delta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 12,
+        "fields": {
+            "isbn": "9780440180296-12",
+            "titulo": "Slaughterhouse-Five",
+            "precio": "14.99",
+            "stock": 30,
+            "proveedor": 12,
+            "autor": [12],
+            "genero": [12]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 13,
+        "fields": {
+            "nombre": "Toni Morrison",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 13,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 13,
+        "fields": {
+            "nombre": "Knopf",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-789-9000",
+            "email": "contact@knopf.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 13,
+        "fields": {
+            "isbn": "9780452284234-13",
+            "titulo": "Beloved",
+            "precio": "18.99",
+            "stock": 25,
+            "proveedor": 13,
+            "autor": [13],
+            "genero": [13]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 14,
+        "fields": {
+            "nombre": "Gabriel García Márquez",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 14,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 14,
+        "fields": {
+            "nombre": "Editorial Planeta",
+            "direccion": "Calle Falsa 123",
+            "telefono": "123456789",
+            "email": "contacto@planeta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 14,
+        "fields": {
+            "isbn": "9781234567897-14",
+            "titulo": "Cien años de soledad",
+            "precio": "19.99",
+            "stock": 50,
+            "proveedor": 14,
+            "autor": [14],
+            "genero": [14]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 15,
+        "fields": {
+            "nombre": "J.K. Rowling",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 15,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 15,
+        "fields": {
+            "nombre": "Bloomsbury",
+            "direccion": "50 Bedford Square, London",
+            "telefono": "+44 20 7631 5600",
+            "email": "info@bloomsbury.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 15,
+        "fields": {
+            "isbn": "9780747532743-15",
+            "titulo": "Harry Potter and the Philosopher's Stone",
+            "precio": "29.99",
+            "stock": 30,
+            "proveedor": 15,
+            "autor": [15],
+            "genero": [15]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 16,
+        "fields": {
+            "nombre": "J.R.R. Tolkien",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 16,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 16,
+        "fields": {
+            "nombre": "HarperCollins",
+            "direccion": "195 Broadway, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harpercollins.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 16,
+        "fields": {
+            "isbn": "9780618640157-16",
+            "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+            "precio": "25.00",
+            "stock": 20,
+            "proveedor": 16,
+            "autor": [16],
+            "genero": [16]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 17,
+        "fields": {
+            "nombre": "George Orwell",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 17,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 17,
+        "fields": {
+            "nombre": "Secker & Warburg",
+            "direccion": "20 Vauxhall Bridge Rd, London",
+            "telefono": "+44 20 7793 3838",
+            "email": "info@seckerandwarburg.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 17,
+        "fields": {
+            "isbn": "9780451524935-17",
+            "titulo": "1984",
+            "precio": "14.99",
+            "stock": 40,
+            "proveedor": 17,
+            "autor": [17],
+            "genero": [17]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 18,
+        "fields": {
+            "nombre": "Aldous Huxley",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 18,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 18,
+        "fields": {
+            "nombre": "Chatto & Windus",
+            "direccion": "39 St. James's Street, London",
+            "telefono": "+44 20 7493 8383",
+            "email": "info@chatto.co.uk"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 18,
+        "fields": {
+            "isbn": "9780060850524-18",
+            "titulo": "Brave New World",
+            "precio": "16.99",
+            "stock": 35,
+            "proveedor": 18,
+            "autor": [18],
+            "genero": [18]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 19,
+        "fields": {
+            "nombre": "Ray Bradbury",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 19,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 19,
+        "fields": {
+            "nombre": "Simon & Schuster",
+            "direccion": "1230 Avenue of the Americas, New York",
+            "telefono": "+1 212-698-7000",
+            "email": "contact@simonandschuster.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 19,
+        "fields": {
+            "isbn": "9781451673319-19",
+            "titulo": "Fahrenheit 451",
+            "precio": "12.99",
+            "stock": 60,
+            "proveedor": 19,
+            "autor": [19],
+            "genero": [19]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 20,
+        "fields": {
+            "nombre": "Isaac Asimov",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 20,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 20,
+        "fields": {
+            "nombre": "Gnome Press",
+            "direccion": "123 Fantasy Rd, New York",
+            "telefono": "+1 212-555-1234",
+            "email": "info@gnomepress.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 20,
+        "fields": {
+            "isbn": "9780553293357-20",
+            "titulo": "Foundation",
+            "precio": "18.99",
+            "stock": 45,
+            "proveedor": 20,
+            "autor": [20],
+            "genero": [20]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 21,
+        "fields": {
+            "nombre": "Philip K. Dick",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 21,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 21,
+        "fields": {
+            "nombre": "Doubleday",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-765-4300",
+            "email": "contact@doubleday.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 21,
+        "fields": {
+            "isbn": "9780345404473-21",
+            "titulo": "Do Androids Dream of Electric Sheep?",
+            "precio": "15.99",
+            "stock": 55,
+            "proveedor": 21,
+            "autor": [21],
+            "genero": [21]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 22,
+        "fields": {
+            "nombre": "Arthur C. Clarke",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 22,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 22,
+        "fields": {
+            "nombre": "Harper & Row",
+            "direccion": "10 E 53rd St, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harperandrow.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 22,
+        "fields": {
+            "isbn": "9780553284577-22",
+            "titulo": "Rendezvous with Rama",
+            "precio": "17.99",
+            "stock": 25,
+            "proveedor": 22,
+            "autor": [22],
+            "genero": [22]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 23,
+        "fields": {
+            "nombre": "H.G. Wells",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 23,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 23,
+        "fields": {
+            "nombre": "The Macmillan Company",
+            "direccion": "866 Third Avenue, New York",
+            "telefono": "+1 212-751-6000",
+            "email": "contact@macmillan.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 23,
+        "fields": {
+            "isbn": "9780451532084-23",
+            "titulo": "The Time Machine",
+            "precio": "13.99",
+            "stock": 65,
+            "proveedor": 23,
+            "autor": [23],
+            "genero": [23]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 24,
+        "fields": {
+            "nombre": "Margaret Atwood",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 24,
+        "fields": {
+            "nombre": "Ficción Distópica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 24,
+        "fields": {
+            "nombre": "McClelland & Stewart",
+            "direccion": "481 University Ave, Toronto",
+            "telefono": "+1 416-598-1484",
+            "email": "contact@mcclelland.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 24,
+        "fields": {
+            "isbn": "9780771005370-24",
+            "titulo": "The Handmaid's Tale",
+            "precio": "22.99",
+            "stock": 20,
+            "proveedor": 24,
+            "autor": [24],
+            "genero": [24]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 25,
+        "fields": {
+            "nombre": "Kurt Vonnegut",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 25,
+        "fields": {
+            "nombre": "Ficción Satírica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 25,
+        "fields": {
+            "nombre": "Delta",
+            "direccion": "200 Park Ave, New York",
+            "telefono": "+1 212-883-8500",
+            "email": "contact@delta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 25,
+        "fields": {
+            "isbn": "9780440180296-25",
+            "titulo": "Slaughterhouse-Five",
+            "precio": "14.99",
+            "stock": 30,
+            "proveedor": 25,
+            "autor": [25],
+            "genero": [25]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 26,
+        "fields": {
+            "nombre": "Toni Morrison",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 26,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 26,
+        "fields": {
+            "nombre": "Knopf",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-789-9000",
+            "email": "contact@knopf.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 26,
+        "fields": {
+            "isbn": "9780452284234-26",
+            "titulo": "Beloved",
+            "precio": "18.99",
+            "stock": 25,
+            "proveedor": 26,
+            "autor": [26],
+            "genero": [26]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 27,
+        "fields": {
+            "nombre": "Gabriel García Márquez",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 27,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 27,
+        "fields": {
+            "nombre": "Editorial Planeta",
+            "direccion": "Calle Falsa 123",
+            "telefono": "123456789",
+            "email": "contacto@planeta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 27,
+        "fields": {
+            "isbn": "9781234567897-27",
+            "titulo": "Cien años de soledad",
+            "precio": "19.99",
+            "stock": 50,
+            "proveedor": 27,
+            "autor": [27],
+            "genero": [27]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 28,
+        "fields": {
+            "nombre": "J.K. Rowling",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 28,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 28,
+        "fields": {
+            "nombre": "Bloomsbury",
+            "direccion": "50 Bedford Square, London",
+            "telefono": "+44 20 7631 5600",
+            "email": "info@bloomsbury.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 28,
+        "fields": {
+            "isbn": "9780747532743-28",
+            "titulo": "Harry Potter and the Philosopher's Stone",
+            "precio": "29.99",
+            "stock": 30,
+            "proveedor": 28,
+            "autor": [28],
+            "genero": [28]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 29,
+        "fields": {
+            "nombre": "J.R.R. Tolkien",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 29,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 29,
+        "fields": {
+            "nombre": "HarperCollins",
+            "direccion": "195 Broadway, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harpercollins.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 29,
+        "fields": {
+            "isbn": "9780618640157-29",
+            "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+            "precio": "25.00",
+            "stock": 20,
+            "proveedor": 29,
+            "autor": [29],
+            "genero": [29]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 30,
+        "fields": {
+            "nombre": "George Orwell",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 30,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 30,
+        "fields": {
+            "nombre": "Secker & Warburg",
+            "direccion": "20 Vauxhall Bridge Rd, London",
+            "telefono": "+44 20 7793 3838",
+            "email": "info@seckerandwarburg.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 30,
+        "fields": {
+            "isbn": "9780451524935-30",
+            "titulo": "1984",
+            "precio": "14.99",
+            "stock": 40,
+            "proveedor": 30,
+            "autor": [30],
+            "genero": [30]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 31,
+        "fields": {
+            "nombre": "Aldous Huxley",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 31,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 31,
+        "fields": {
+            "nombre": "Chatto & Windus",
+            "direccion": "39 St. James's Street, London",
+            "telefono": "+44 20 7493 8383",
+            "email": "info@chatto.co.uk"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 31,
+        "fields": {
+            "isbn": "9780060850524-31",
+            "titulo": "Brave New World",
+            "precio": "16.99",
+            "stock": 35,
+            "proveedor": 31,
+            "autor": [31],
+            "genero": [31]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 32,
+        "fields": {
+            "nombre": "Ray Bradbury",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 32,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 32,
+        "fields": {
+            "nombre": "Simon & Schuster",
+            "direccion": "1230 Avenue of the Americas, New York",
+            "telefono": "+1 212-698-7000",
+            "email": "contact@simonandschuster.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 32,
+        "fields": {
+            "isbn": "9781451673319-32",
+            "titulo": "Fahrenheit 451",
+            "precio": "12.99",
+            "stock": 60,
+            "proveedor": 32,
+            "autor": [32],
+            "genero": [32]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 33,
+        "fields": {
+            "nombre": "Isaac Asimov",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 33,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 33,
+        "fields": {
+            "nombre": "Gnome Press",
+            "direccion": "123 Fantasy Rd, New York",
+            "telefono": "+1 212-555-1234",
+            "email": "info@gnomepress.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 33,
+        "fields": {
+            "isbn": "9780553293357-33",
+            "titulo": "Foundation",
+            "precio": "18.99",
+            "stock": 45,
+            "proveedor": 33,
+            "autor": [33],
+            "genero": [33]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 34,
+        "fields": {
+            "nombre": "Philip K. Dick",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 34,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 34,
+        "fields": {
+            "nombre": "Doubleday",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-765-4300",
+            "email": "contact@doubleday.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 34,
+        "fields": {
+            "isbn": "9780345404473-34",
+            "titulo": "Do Androids Dream of Electric Sheep?",
+            "precio": "15.99",
+            "stock": 55,
+            "proveedor": 34,
+            "autor": [34],
+            "genero": [34]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 35,
+        "fields": {
+            "nombre": "Arthur C. Clarke",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 35,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 35,
+        "fields": {
+            "nombre": "Harper & Row",
+            "direccion": "10 E 53rd St, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harperandrow.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 35,
+        "fields": {
+            "isbn": "9780553284577-35",
+            "titulo": "Rendezvous with Rama",
+            "precio": "17.99",
+            "stock": 25,
+            "proveedor": 35,
+            "autor": [35],
+            "genero": [35]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 36,
+        "fields": {
+            "nombre": "H.G. Wells",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 36,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 36,
+        "fields": {
+            "nombre": "The Macmillan Company",
+            "direccion": "866 Third Avenue, New York",
+            "telefono": "+1 212-751-6000",
+            "email": "contact@macmillan.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 36,
+        "fields": {
+            "isbn": "9780451532084-36",
+            "titulo": "The Time Machine",
+            "precio": "13.99",
+            "stock": 65,
+            "proveedor": 36,
+            "autor": [36],
+            "genero": [36]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 37,
+        "fields": {
+            "nombre": "Margaret Atwood",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 37,
+        "fields": {
+            "nombre": "Ficción Distópica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 37,
+        "fields": {
+            "nombre": "McClelland & Stewart",
+            "direccion": "481 University Ave, Toronto",
+            "telefono": "+1 416-598-1484",
+            "email": "contact@mcclelland.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 37,
+        "fields": {
+            "isbn": "9780771005370-37",
+            "titulo": "The Handmaid's Tale",
+            "precio": "22.99",
+            "stock": 20,
+            "proveedor": 37,
+            "autor": [37],
+            "genero": [37]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 38,
+        "fields": {
+            "nombre": "Kurt Vonnegut",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 38,
+        "fields": {
+            "nombre": "Ficción Satírica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 38,
+        "fields": {
+            "nombre": "Delta",
+            "direccion": "200 Park Ave, New York",
+            "telefono": "+1 212-883-8500",
+            "email": "contact@delta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 38,
+        "fields": {
+            "isbn": "9780440180296-38",
+            "titulo": "Slaughterhouse-Five",
+            "precio": "14.99",
+            "stock": 30,
+            "proveedor": 38,
+            "autor": [38],
+            "genero": [38]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 39,
+        "fields": {
+            "nombre": "Toni Morrison",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 39,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 39,
+        "fields": {
+            "nombre": "Knopf",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-789-9000",
+            "email": "contact@knopf.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 39,
+        "fields": {
+            "isbn": "9780452284234-39",
+            "titulo": "Beloved",
+            "precio": "18.99",
+            "stock": 25,
+            "proveedor": 39,
+            "autor": [39],
+            "genero": [39]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 40,
+        "fields": {
+            "nombre": "Gabriel García Márquez",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 40,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 40,
+        "fields": {
+            "nombre": "Editorial Planeta",
+            "direccion": "Calle Falsa 123",
+            "telefono": "123456789",
+            "email": "contacto@planeta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 40,
+        "fields": {
+            "isbn": "9781234567897-40",
+            "titulo": "Cien años de soledad",
+            "precio": "19.99",
+            "stock": 50,
+            "proveedor": 40,
+            "autor": [40],
+            "genero": [40]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 41,
+        "fields": {
+            "nombre": "J.K. Rowling",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 41,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 41,
+        "fields": {
+            "nombre": "Bloomsbury",
+            "direccion": "50 Bedford Square, London",
+            "telefono": "+44 20 7631 5600",
+            "email": "info@bloomsbury.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 41,
+        "fields": {
+            "isbn": "9780747532743-41",
+            "titulo": "Harry Potter and the Philosopher's Stone",
+            "precio": "29.99",
+            "stock": 30,
+            "proveedor": 41,
+            "autor": [41],
+            "genero": [41]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 42,
+        "fields": {
+            "nombre": "J.R.R. Tolkien",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 42,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 42,
+        "fields": {
+            "nombre": "HarperCollins",
+            "direccion": "195 Broadway, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harpercollins.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 42,
+        "fields": {
+            "isbn": "9780618640157-42",
+            "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+            "precio": "25.00",
+            "stock": 20,
+            "proveedor": 42,
+            "autor": [42],
+            "genero": [42]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 43,
+        "fields": {
+            "nombre": "George Orwell",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 43,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 43,
+        "fields": {
+            "nombre": "Secker & Warburg",
+            "direccion": "20 Vauxhall Bridge Rd, London",
+            "telefono": "+44 20 7793 3838",
+            "email": "info@seckerandwarburg.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 43,
+        "fields": {
+            "isbn": "9780451524935-43",
+            "titulo": "1984",
+            "precio": "14.99",
+            "stock": 40,
+            "proveedor": 43,
+            "autor": [43],
+            "genero": [43]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 44,
+        "fields": {
+            "nombre": "Aldous Huxley",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 44,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 44,
+        "fields": {
+            "nombre": "Chatto & Windus",
+            "direccion": "39 St. James's Street, London",
+            "telefono": "+44 20 7493 8383",
+            "email": "info@chatto.co.uk"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 44,
+        "fields": {
+            "isbn": "9780060850524-44",
+            "titulo": "Brave New World",
+            "precio": "16.99",
+            "stock": 35,
+            "proveedor": 44,
+            "autor": [44],
+            "genero": [44]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 45,
+        "fields": {
+            "nombre": "Ray Bradbury",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 45,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 45,
+        "fields": {
+            "nombre": "Simon & Schuster",
+            "direccion": "1230 Avenue of the Americas, New York",
+            "telefono": "+1 212-698-7000",
+            "email": "contact@simonandschuster.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 45,
+        "fields": {
+            "isbn": "9781451673319-45",
+            "titulo": "Fahrenheit 451",
+            "precio": "12.99",
+            "stock": 60,
+            "proveedor": 45,
+            "autor": [45],
+            "genero": [45]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 46,
+        "fields": {
+            "nombre": "Isaac Asimov",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 46,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 46,
+        "fields": {
+            "nombre": "Gnome Press",
+            "direccion": "123 Fantasy Rd, New York",
+            "telefono": "+1 212-555-1234",
+            "email": "info@gnomepress.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 46,
+        "fields": {
+            "isbn": "9780553293357-46",
+            "titulo": "Foundation",
+            "precio": "18.99",
+            "stock": 45,
+            "proveedor": 46,
+            "autor": [46],
+            "genero": [46]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 47,
+        "fields": {
+            "nombre": "Philip K. Dick",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 47,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 47,
+        "fields": {
+            "nombre": "Doubleday",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-765-4300",
+            "email": "contact@doubleday.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 47,
+        "fields": {
+            "isbn": "9780345404473-47",
+            "titulo": "Do Androids Dream of Electric Sheep?",
+            "precio": "15.99",
+            "stock": 55,
+            "proveedor": 47,
+            "autor": [47],
+            "genero": [47]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 48,
+        "fields": {
+            "nombre": "Arthur C. Clarke",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 48,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 48,
+        "fields": {
+            "nombre": "Harper & Row",
+            "direccion": "10 E 53rd St, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harperandrow.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 48,
+        "fields": {
+            "isbn": "9780553284577-48",
+            "titulo": "Rendezvous with Rama",
+            "precio": "17.99",
+            "stock": 25,
+            "proveedor": 48,
+            "autor": [48],
+            "genero": [48]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 49,
+        "fields": {
+            "nombre": "H.G. Wells",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 49,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 49,
+        "fields": {
+            "nombre": "The Macmillan Company",
+            "direccion": "866 Third Avenue, New York",
+            "telefono": "+1 212-751-6000",
+            "email": "contact@macmillan.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 49,
+        "fields": {
+            "isbn": "9780451532084-49",
+            "titulo": "The Time Machine",
+            "precio": "13.99",
+            "stock": 65,
+            "proveedor": 49,
+            "autor": [49],
+            "genero": [49]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 50,
+        "fields": {
+            "nombre": "Margaret Atwood",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 50,
+        "fields": {
+            "nombre": "Ficción Distópica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 50,
+        "fields": {
+            "nombre": "McClelland & Stewart",
+            "direccion": "481 University Ave, Toronto",
+            "telefono": "+1 416-598-1484",
+            "email": "contact@mcclelland.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 50,
+        "fields": {
+            "isbn": "9780771005370-50",
+            "titulo": "The Handmaid's Tale",
+            "precio": "22.99",
+            "stock": 20,
+            "proveedor": 50,
+            "autor": [50],
+            "genero": [50]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 51,
+        "fields": {
+            "nombre": "Kurt Vonnegut",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 51,
+        "fields": {
+            "nombre": "Ficción Satírica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 51,
+        "fields": {
+            "nombre": "Delta",
+            "direccion": "200 Park Ave, New York",
+            "telefono": "+1 212-883-8500",
+            "email": "contact@delta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 51,
+        "fields": {
+            "isbn": "9780440180296-51",
+            "titulo": "Slaughterhouse-Five",
+            "precio": "14.99",
+            "stock": 30,
+            "proveedor": 51,
+            "autor": [51],
+            "genero": [51]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 52,
+        "fields": {
+            "nombre": "Toni Morrison",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 52,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 52,
+        "fields": {
+            "nombre": "Knopf",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-789-9000",
+            "email": "contact@knopf.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 52,
+        "fields": {
+            "isbn": "9780452284234-52",
+            "titulo": "Beloved",
+            "precio": "18.99",
+            "stock": 25,
+            "proveedor": 52,
+            "autor": [52],
+            "genero": [52]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 53,
+        "fields": {
+            "nombre": "Gabriel García Márquez",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 53,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 53,
+        "fields": {
+            "nombre": "Editorial Planeta",
+            "direccion": "Calle Falsa 123",
+            "telefono": "123456789",
+            "email": "contacto@planeta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 53,
+        "fields": {
+            "isbn": "9781234567897-53",
+            "titulo": "Cien años de soledad",
+            "precio": "19.99",
+            "stock": 50,
+            "proveedor": 53,
+            "autor": [53],
+            "genero": [53]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 54,
+        "fields": {
+            "nombre": "J.K. Rowling",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 54,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 54,
+        "fields": {
+            "nombre": "Bloomsbury",
+            "direccion": "50 Bedford Square, London",
+            "telefono": "+44 20 7631 5600",
+            "email": "info@bloomsbury.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 54,
+        "fields": {
+            "isbn": "9780747532743-54",
+            "titulo": "Harry Potter and the Philosopher's Stone",
+            "precio": "29.99",
+            "stock": 30,
+            "proveedor": 54,
+            "autor": [54],
+            "genero": [54]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 55,
+        "fields": {
+            "nombre": "J.R.R. Tolkien",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 55,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 55,
+        "fields": {
+            "nombre": "HarperCollins",
+            "direccion": "195 Broadway, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harpercollins.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 55,
+        "fields": {
+            "isbn": "9780618640157-55",
+            "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+            "precio": "25.00",
+            "stock": 20,
+            "proveedor": 55,
+            "autor": [55],
+            "genero": [55]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 56,
+        "fields": {
+            "nombre": "George Orwell",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 56,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 56,
+        "fields": {
+            "nombre": "Secker & Warburg",
+            "direccion": "20 Vauxhall Bridge Rd, London",
+            "telefono": "+44 20 7793 3838",
+            "email": "info@seckerandwarburg.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 56,
+        "fields": {
+            "isbn": "9780451524935-56",
+            "titulo": "1984",
+            "precio": "14.99",
+            "stock": 40,
+            "proveedor": 56,
+            "autor": [56],
+            "genero": [56]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 57,
+        "fields": {
+            "nombre": "Aldous Huxley",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 57,
+        "fields": {
+            "nombre": "Distopía"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 57,
+        "fields": {
+            "nombre": "Chatto & Windus",
+            "direccion": "39 St. James's Street, London",
+            "telefono": "+44 20 7493 8383",
+            "email": "info@chatto.co.uk"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 57,
+        "fields": {
+            "isbn": "9780060850524-57",
+            "titulo": "Brave New World",
+            "precio": "16.99",
+            "stock": 35,
+            "proveedor": 57,
+            "autor": [57],
+            "genero": [57]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 58,
+        "fields": {
+            "nombre": "Ray Bradbury",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 58,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 58,
+        "fields": {
+            "nombre": "Simon & Schuster",
+            "direccion": "1230 Avenue of the Americas, New York",
+            "telefono": "+1 212-698-7000",
+            "email": "contact@simonandschuster.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 58,
+        "fields": {
+            "isbn": "9781451673319-58",
+            "titulo": "Fahrenheit 451",
+            "precio": "12.99",
+            "stock": 60,
+            "proveedor": 58,
+            "autor": [58],
+            "genero": [58]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 59,
+        "fields": {
+            "nombre": "Isaac Asimov",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 59,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 59,
+        "fields": {
+            "nombre": "Gnome Press",
+            "direccion": "123 Fantasy Rd, New York",
+            "telefono": "+1 212-555-1234",
+            "email": "info@gnomepress.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 59,
+        "fields": {
+            "isbn": "9780553293357-59",
+            "titulo": "Foundation",
+            "precio": "18.99",
+            "stock": 45,
+            "proveedor": 59,
+            "autor": [59],
+            "genero": [59]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 60,
+        "fields": {
+            "nombre": "Philip K. Dick",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 60,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 60,
+        "fields": {
+            "nombre": "Doubleday",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-765-4300",
+            "email": "contact@doubleday.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 60,
+        "fields": {
+            "isbn": "9780345404473-60",
+            "titulo": "Do Androids Dream of Electric Sheep?",
+            "precio": "15.99",
+            "stock": 55,
+            "proveedor": 60,
+            "autor": [60],
+            "genero": [60]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 61,
+        "fields": {
+            "nombre": "Arthur C. Clarke",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 61,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 61,
+        "fields": {
+            "nombre": "Harper & Row",
+            "direccion": "10 E 53rd St, New York",
+            "telefono": "+1 212-207-7000",
+            "email": "contact@harperandrow.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 61,
+        "fields": {
+            "isbn": "9780553284577-61",
+            "titulo": "Rendezvous with Rama",
+            "precio": "17.99",
+            "stock": 25,
+            "proveedor": 61,
+            "autor": [61],
+            "genero": [61]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 62,
+        "fields": {
+            "nombre": "H.G. Wells",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 62,
+        "fields": {
+            "nombre": "Ciencia Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 62,
+        "fields": {
+            "nombre": "The Macmillan Company",
+            "direccion": "866 Third Avenue, New York",
+            "telefono": "+1 212-751-6000",
+            "email": "contact@macmillan.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 62,
+        "fields": {
+            "isbn": "9780451532084-62",
+            "titulo": "The Time Machine",
+            "precio": "13.99",
+            "stock": 65,
+            "proveedor": 62,
+            "autor": [62],
+            "genero": [62]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 63,
+        "fields": {
+            "nombre": "Margaret Atwood",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 63,
+        "fields": {
+            "nombre": "Ficción Distópica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 63,
+        "fields": {
+            "nombre": "McClelland & Stewart",
+            "direccion": "481 University Ave, Toronto",
+            "telefono": "+1 416-598-1484",
+            "email": "contact@mcclelland.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 63,
+        "fields": {
+            "isbn": "9780771005370-63",
+            "titulo": "The Handmaid's Tale",
+            "precio": "22.99",
+            "stock": 20,
+            "proveedor": 63,
+            "autor": [63],
+            "genero": [63]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 64,
+        "fields": {
+            "nombre": "Kurt Vonnegut",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 64,
+        "fields": {
+            "nombre": "Ficción Satírica"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 64,
+        "fields": {
+            "nombre": "Delta",
+            "direccion": "200 Park Ave, New York",
+            "telefono": "+1 212-883-8500",
+            "email": "contact@delta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 64,
+        "fields": {
+            "isbn": "9780440180296-64",
+            "titulo": "Slaughterhouse-Five",
+            "precio": "14.99",
+            "stock": 30,
+            "proveedor": 64,
+            "autor": [64],
+            "genero": [64]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 65,
+        "fields": {
+            "nombre": "Toni Morrison",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 65,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 65,
+        "fields": {
+            "nombre": "Knopf",
+            "direccion": "1745 Broadway, New York",
+            "telefono": "+1 212-789-9000",
+            "email": "contact@knopf.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 65,
+        "fields": {
+            "isbn": "9780452284234-65",
+            "titulo": "Beloved",
+            "precio": "18.99",
+            "stock": 25,
+            "proveedor": 65,
+            "autor": [65],
+            "genero": [65]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 66,
+        "fields": {
+            "nombre": "Gabriel García Márquez",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 66,
+        "fields": {
+            "nombre": "Ficción"
+        }
+    },
+    {
+        "model": "catalogo.proveedor",
+        "pk": 66,
+        "fields": {
+            "nombre": "Editorial Planeta",
+            "direccion": "Calle Falsa 123",
+            "telefono": "123456789",
+            "email": "contacto@planeta.com"
+        }
+    },
+    {
+        "model": "catalogo.libro",
+        "pk": 66,
+        "fields": {
+            "isbn": "9781234567897-66",
+            "titulo": "Cien años de soledad",
+            "precio": "19.99",
+            "stock": 50,
+            "proveedor": 66,
+            "autor": [66],
+            "genero": [66]
+        }
+    },
+    {
+        "model": "catalogo.autor",
+        "pk": 67,
+        "fields": {
+            "nombre": "J.K. Rowling",
+            "contacto": ""
+        }
+    },
+    {
+        "model": "catalogo.genero",
+        "pk": 67,
+        "fields": {
+            "nombre": "Fantasía"
+        }
+    }
+]
