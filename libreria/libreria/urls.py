@@ -16,9 +16,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.shortcuts import redirect
+from django.http import HttpResponse
 from ventas.views import StoreView, BookDetailView
 
+def home_redirect(request):
+    return redirect('store')
+
+def favicon_view(request):
+    return HttpResponse(status=204)  # No Content
+
 urlpatterns = [
+    path('', home_redirect, name='home'),
+    path('favicon.ico', favicon_view),
     path('admin/', admin.site.urls),
     path('store/', StoreView.as_view(), name='store'),
     path('book/<int:pk>/', BookDetailView.as_view(), name='book_detail'),

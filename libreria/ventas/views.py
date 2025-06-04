@@ -10,7 +10,7 @@ class StoreView(ListView):
     def get_queryset(self):
         query = self.request.GET.get('q', '')
         autor = self.request.GET.get('autor', '')
-        libros = Libro.objects.filter(stock__gt=0)
+        libros = Libro.objects.filter(stock__gt=0).order_by('titulo')
         if query:
             libros = libros.filter(titulo__icontains=query)
         if autor:
